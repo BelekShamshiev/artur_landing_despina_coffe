@@ -1,0 +1,169 @@
+body {
+  height: 1000px;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  padding-top:26px;
+  background-color: rgba(184, 146, 49, 0.932);
+  max-width: 100%;
+  max-height: 100px;
+  height: 100%;
+  margin: 0 auto;
+}
+.burger{
+  display: none;
+}
+.header_logo > img {
+  width: 225px;
+  height: 102px;
+}
+.header {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_p {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.header_p > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.phone_img {
+  display: flex;
+  gap: 20px;
+}
+.phone_img > p {
+  font-size: 20px;
+  color: white;
+}
+.phone_img > img {
+  width: 24.21px;
+  height: 27.63px;
+}
+.basket {
+  display: flex;
+  gap: 20px;
+}
+.basket > p {
+  font-size: 20px;
+  color: white;
+}
+.basket > img {
+  width: 24.21px;
+  height: 27.63px;
+}
+
+.phone{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width:1024px){
+  .container{
+    max-width: 1024px;
+    width: 100%;
+  }
+  .header_logo{
+    max-width: 180px;
+    /* max-height: 82px; */
+    width: 100%;
+    height: 100%;
+  }
+  .header_logo>img{
+    width: 100%;
+    height: 100%;
+  }
+  .header_p>a{
+    font-size: 15px;
+  }
+  .phone_img>img{
+    max-width: 15px;
+    max-height: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  .basket>img{
+    max-width: 15px;
+    max-height: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  .phone_img{
+    display: flex;
+  }
+  .phone_img>p{
+    font-size: 15px;
+  
+  }
+  .basket>p{
+    font-size: 15px;
+  }
+
+}
+@media (max-width:768px){
+  .container{
+    max-width: 768px;
+    width: 100%;
+  }
+  .header_logo{
+    max-width: 130px;
+    width: 100%;
+  }
+  .header_logo>img{
+    width: 100%;
+  }
+  .header_p >a {
+    font-size: 10px;
+  }
+  .phone_img>img{
+    max-width: 10px;
+    max-height: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .phone_img>p{
+    font-size: 10px;
+  }
+  .basket>img{
+    max-width: 10px;
+    max-height: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .basket>p{
+    font-size: 10px;
+  }
+
+}
+@media(max-width:600px){
+  .container{
+    max-width: 600px;
+    width: 100%;
+  }
+  .header_logo>img{
+    max-width:130px;
+    width: 100%;
+  }
+}
+@media (max-width:425px){
+  .container{
+    max-width: 425px;
+    width: 100%;
+  }
+  .burger{
+    
+  }
+}

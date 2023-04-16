@@ -1,0 +1,43 @@
+.diskovery {
+  background: url(../../assets/banner.png) no-repeat;
+  background-size: cover;
+  max-height: 890px;
+  margin-top: 190px;
+  justify-content: center;
+}
+.diskovery_title{
+    margin-top: 83px;
+}
+
+.diskovery_title > h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  padding: 55px;
+  line-height: 69px;
+  text-align: center;
+  color: #e4b95b;
+}
+
+.diskovery_title > p {
+    text-align: center;
+}
+
+
+.menu_coffees{
+  padding: 5%;
+  max-width: 1200px;
+  height: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn_disk>Button{
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: #f3a600;
+  background-color: #fff;
+}

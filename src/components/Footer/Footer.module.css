@@ -1,0 +1,161 @@
+.container {
+  background: url(../../assets/bacground.png) no-repeat;
+  margin-top: 400px;
+  height: 390px;
+  padding-top: 200px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer_logo{
+  margin-top: -70px;
+}
+.socialmedia{
+    display: flex;
+    gap: 15px;
+  }
+.socialmedia>img{
+  margin-top: 10px;
+  width: 20px;
+  margin-left: 20px;
+}
+.footer_contact>h1{
+  
+    color: #C7A17A;
+}
+.footer_opening >h1{
+    color: #C7A17A;
+}
+.footer_video>h1{
+color: #C7A17A;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    margin-top: 50px;
+    padding: 20px;
+    height:auto;
+  }
+
+  .socialmedia {
+ 
+    display: none;
+  }
+  .footer_contact, .footer_opening, .footer_video {
+    text-align: center;
+  }
+  .footer_contact h1, .footer_opening h1, .footer_video h1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    margin-top: 110;
+    padding-top: 250px;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_logo {
+    margin-top: 20px;
+  }
+
+  .footer_contact, .footer_opening, .footer_video {
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+.socialmedia {
+
+  display: none;
+}
+
+
+
+.footer_contact > h1,
+.footer_opening > h1,
+.footer_video > h1 {
+  color: #C7A17A;
+  font-size: 24px;
+}
+
+@media (max-width: 479px) {
+  .container{
+    display: none;
+  }
+  .socialmedia {
+    justify-content: center;
+    display: none;
+  }
+  .footer_contact > h1,
+  .footer_opening > h1,
+  .footer_video > h1 {
+    font-size: 20px;
+  }
+}
+@media(max-width:320px){
+  
+  .container {
+    display: none;
+    background: url(../../assets/bacground.png) no-repeat;
+    margin-top: 200px;
+    height:300px;
+    padding-top: 100px;
+    width: 300px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer_logo{
+    margin-top: -50px;
+  }
+  
+  .socialmedia{
+    display: flex;
+    gap: 5px;
+  }
+  
+  .socialmedia > img{
+    margin-top: 5px;
+    width: 15px;
+    margin-left: 10px;
+  }
+  
+  .footer_contact > h1{
+    color: #C7A17A;
+    font-size: 16px;
+  }
+  
+  .footer_opening > h1{
+    color: #C7A17A;
+    font-size: 16px;
+  }
+  
+  .footer_video > h1{
+    color: #C7A17A;
+    font-size: 16px;
+  }
+  
+}

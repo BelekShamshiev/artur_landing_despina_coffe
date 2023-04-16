@@ -1,0 +1,144 @@
+.container_coffe{
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.coffe_d > img{
+    width: 150px;
+    height: 150px;
+}
+.coffe{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.Coffe_p{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.coffe{
+    display: flex;
+}
+
+.coffe_title{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
+}
+.coffe_title>p{
+    color: #E4B95B;
+
+}
+
+.line{
+    width: 300px;
+    color: white;
+    display: flex;
+}
+
+.coffe_img>img{
+    width: 100px;
+}
+.container_coffe {
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .coffe_d > img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .coffe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .Coffe_p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coffe_title {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .coffe_title > p {
+    color: #E4B95B;
+  }
+  
+  .line {
+    width: 300px;
+    color: white;
+    display: flex;
+  }
+  
+  .coffe_img > img {
+    width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .coffe {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .coffe_title {
+      width: 100%;
+      margin-top: 20px;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .coffe_title > p {
+      margin-top: 10px;
+    }
+    
+    .line {
+      display: none;
+    }
+    
+    .coffe_img > img {
+      width: 50px;
+    }
+  }
+  @media (max-width: 425px) {
+    .coffe {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .coffe_d > img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .coffe_title {
+      width: auto;
+      margin-top: 10px;
+    }
+  
+    .line {
+      width: auto;
+      margin-top: 10px;
+    }
+  
+    .coffe_img > img {
+      width: 60px;
+    }
+  }
+
+  @media(max-width:320px){
+    
+  }

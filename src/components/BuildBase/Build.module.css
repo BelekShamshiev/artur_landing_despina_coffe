@@ -1,0 +1,151 @@
+.container {
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 700px;
+}
+
+.build_title > h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  display: flex;
+  justify-content: center;
+  color: #e4b95b;
+}
+.build_title > p {
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+.swiper {
+  margin-top: 70px;
+  width: 100%;
+  height: 400px;
+}
+
+.swiper_img {
+  width: 270px;
+}
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper_btn {
+  display: block;
+  margin-left: 10px;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  border-radius: 20px;
+}
+
+.swiper_btn > span {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.swiper_btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #e4b95b;
+  transition: all 0.35s;
+  border-radius: 20px;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .swiper_img {
+    width: 200px;
+  }
+  .swiper_btn {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .swiper {
+    height: 325px;
+  }
+  .swiper_img {
+    width: 200px;
+  }
+  .swiper_btn {
+    display: none;
+  }
+  .swiper_btn > span {
+    display: none;
+  }
+}
+@media (max-width: 426px) {
+  .container {
+    height: 450px;
+    margin-top: 600px;
+  }
+  .swiper {
+    height: 200px;
+  }
+  .swiper_img {
+    width: 150px;
+  }
+  .build_title > h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 376px) {
+  .container {
+    height: 450px;
+    margin-top: -0px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+    height: 200px;
+    margin-top: 150px;
+  }
+  .build_title > p {
+    margin-top: -110px !important;
+    display: none;
+  }
+  .swiper {
+    height: 170px;
+    margin-top: -100px;
+  }
+  .swiper_img {
+    width: 130px;
+    height: 130px;
+  }
+  .build_title > h1 {
+    font-size: 25px;
+    margin-top: -50px !important;
+    z-index: -1;
+    display: none;
+  }
+}

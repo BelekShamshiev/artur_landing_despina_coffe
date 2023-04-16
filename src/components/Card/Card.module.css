@@ -1,0 +1,221 @@
+.container_card {
+  margin-top: 100px;
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+.card_all {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  gap: 60px;
+}
+.card_two {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.flavor_main {
+  padding-left: 20px;
+  max-width: 120px;
+  width: 100%;
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ghost_button {
+  border-radius: 20px;
+  width: 220px;
+  height: 35px;
+}
+.card_flavour {
+  max-width: 800px;
+  max-height: 595px;
+  width: 100%;
+  height: 100%;
+}
+.card_flavour > img {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.card_creat {
+  max-width: 470px;
+  max-height: 360px;
+}
+.card_creat > img {
+  width: 100%;
+  height: 100%;
+}
+.creat_main {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -60px;
+}
+.creat_main > Button {
+  width: 120px;
+  border-radius: 20px;
+}
+.creat_main > p {
+  margin-left: -285px;
+  font-size: 15px;
+}
+.creat_p {
+  white-space: nowrap;
+  font-size: 25px;
+}
+.card_sale {
+  max-width: 470px;
+  max-height: 350px;
+}
+.card_sale > img {
+  width: 100%;
+  height: 100%;
+}
+.swiper_btn{
+  display:block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-radius: 20px;
+}
+
+.swiper_btn>span{
+  position: relative;
+  z-index: 2;
+}
+
+.swiper_btn:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #e4b95b;
+  transition: all .35s;
+  border-radius: 20px;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .container_card {
+    max-width: 1440px;
+    width: 100%;
+  }
+  .card_two {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .container_card {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .card_two {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_card {
+    max-width: 768px;
+    width: 100%;
+  }
+  .card_two {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .container_card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_all {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .card_two {
+    margin-top: 0;
+    gap: 30px;
+  }
+
+  .card_flavour {
+    max-width: none;
+    max-height: none;
+  }
+
+}
+@media (max-width: 320px) {
+  .container_card {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+  }
+
+  .card_all {
+    width: 100%;
+    margin: 0;
+  }
+
+  .card_flavour {
+    max-width: none;
+    max-height: none;
+  }
+
+  .card_creat {
+    max-width: none;
+    max-height: none;
+  }
+
+  .flavor_main {
+    max-width: none;
+    margin-top: -40px;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .creat_main {
+    margin-top: -30px;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .swiper_btn {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-width: 1px;
+    letter-spacing: 1px;
+    display: none;
+  }
+}
